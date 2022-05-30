@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Upcoming</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="heading">Upcoming movies</div>
+        <div class="video-container">
+            <div class="video">
+                <video src="the-bad-guys-trailer-2_h720p.mov_Trim.mp4" sound></video>
+            </div>
+            <style>
+                img {
+                  border: 1px solid #ddd; /* Gray border */
+                  border-radius: 4px;  /* Rounded border */
+                  padding: 5px; /* Some padding */
+                  width: 170px; /* Set a small width */
+                }
+                
+                /* Add a hover effect (blue shadow) */
+                img:hover {
+                  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+                }
+                </style>
+                <body>
+                
+                <a target="_top" href="the-bad-guys-2022.jpg">
+                  <img src="the-bad-guys-2022.jpg" alt="BAD GUYS">
+                </a>
+                
+        
+            
+            <div class="video">
+                <video src="doctor-strangelove-in-the-multiverse-of-madness-trailer-2_h720p_Trim.mp4" sound></video>
+                   
+                 
+            </div>
+            <style>
+                img {
+                  border: 1px solid #ddd; /* Gray border */
+                  border-radius: 4px;  /* Rounded border */
+                  padding: 5px; /* Some padding */
+                  width: 170px; /* Set a small width */
+                }
+                
+                /* Add a hover effect (blue shadow) */
+                img:hover {
+                  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+                }
+                </style>
+                <body>
+                
+                <a target="_top" href="mra7834mplf51.jpg">
+                  <img src="mra7834mplf51.jpg" alt="DOCTOR STRANGE">
+                </a>
+                
+            
+        
+
+        </div>
+    </div>
+    <script>
+
+        var video = document.querySelectorAll('video')
+
+        video.forEach(play => play.addEventListener('click', () =>{
+
+            play.classList.toggle('active');
+
+            if(play.paused){
+                play.play();
+            }else {
+                play.pause();
+                play.currentTime = 0;
+            }
+    
+            }));
+    </script>
+</body>
+
+</html>
